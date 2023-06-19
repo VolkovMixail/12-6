@@ -84,14 +84,14 @@ START SLAVE;
 ```sql
 SHOW SLAVE STATUS\G;
 ```
-![]()
+![](img/12-6-2-2.png)
 #### На мастере: 
 ```sql
-create database hw_12_6_Golikov;
+create database hw_12_6_volkov;
 ```
 #### На слэйве:
 ```sql
 show databases;
 ```
-![]()
+![](img/12-6-2-3.png)
 ---
