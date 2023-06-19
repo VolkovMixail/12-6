@@ -73,7 +73,7 @@ GRANT REPLICATION SLAVE ON *.* TO 'replication'@'%';
 ```sql
 SHOW MASTER STATUS;
 ```
-![]()
+![](https://github.com/VolkovMixail/12-6/blob/main/img/12-6-2-1.png)
 #### На слэйве:
 ```sql
 CHANGE MASTER TO MASTER_HOST='192.168.*.*', MASTER_USER='replication', MASTER_PASSWORD='Repl11Pass!', MASTER_LOG_FILE = 'mybin.000001', MASTER_LOG_POS = (число из колонки position из статуса мастера);
